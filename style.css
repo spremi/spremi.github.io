@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&display=swap');
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff9c4;
+  font-family: 'Amita', cursive;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 160px;
+  text-align: center;
+
+  color: #d84315;
+
+  text-shadow: 0 2px 0 #ff5722,
+               0 4px 0 #ff9e80,
+               0 6px 0 #ff8a65;
+}
