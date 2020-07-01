@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "self.premi.sanjeev.deeplinks",
+    "sha256_cert_fingerprints":
+    ["8C:62:17:2C:A8:43:08:88:C1:97:2E:B6:86:B0:F4:D1:EB:A4:CC:0A:BC:34:80:79:F0:C6:7D:34:62:23:AA:23"]
+  }
+}]
