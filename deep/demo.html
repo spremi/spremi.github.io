@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>App Link Demo</title>
+  <meta name="description" content="App Links">
+  <meta name="author" content="spremi">
+  <link rel="stylesheet" href="style.css?v=1.0">
+</head>
+
+<body>
+  <h1>Supported App Links</h1>
+
+  <h3>Without Params</h3>
+
+  <div class="links">
+    <div class="link"><a href="/app/f/">Page 1</a></div>
+    <div class="link"><a href="/app/s/">Page 2</a></div>
+    <div class="link"><a href="/app/t/">Page 3</a></div>
+  </div>
+
+  <h3>With Query Params</h3>
+
+  <div class="links">
+    <div class="link">
+      <a href="/app/f/?id=1&data=test%20one">Page 1</a>
+    </div>
+    <div class="link">
+      <a href="/app/s/?id=2&data=test%20two">Page 2</a>
+    </div>
+    <div class="link">
+      <a href="/app/t/?id=2&data=test%20three%20jhffweurwoieru23094838474j573485jcv438534438r5">Page 3</a>
+    </div>
+  </div>
+
+  <div class="intro">
+    <p class="para">These links are valid <strong>only</strong> when DeepLinks application is installed on your Android phone.
+    </p>
+
+    <img src="deep-links.png" width="128px" height="128px">
+  </div>
+
+  <div class="dload">
+    <!-- TODO: Add playstore badge here -->
+    <a href='https://play.google.com/store/apps/details?id=self.premi.sanjeev.nayati&hl=en&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+  </div>
+</body>
+</html>
