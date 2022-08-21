@@ -1,9 +1,27 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "self.premi.sanjeev.deeplinks",
-    "sha256_cert_fingerprints":
-    ["8C:62:17:2C:A8:43:08:88:C1:97:2E:B6:86:B0:F4:D1:EB:A4:CC:0A:BC:34:80:79:F0:C6:7D:34:62:23:AA:23"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "self.premi.sanjeev.deeplinks",
+      "sha256_cert_fingerprints": [
+        "8C:62:17:2C:A8:43:08:88:C1:97:2E:B6:86:B0:F4:D1:EB:A4:CC:0A:BC:34:80:79:F0:C6:7D:34:62:23:AA:23"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "self.premi.sanjeev.pushti",
+      "sha256_cert_fingerprints": [
+        "37:1A:EF:63:41:EC:66:FB:32:08:23:C6:37:32:ED:A2:F0:87:19:E1:38:2E:36:47:11:D2:1C:A8:41:BD:45:F6"
+      ]
+    }
   }
-}]
+]
